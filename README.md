@@ -54,7 +54,7 @@ Traditional gate opening systems often rely on manual labor or simple remote con
 
 - **QR Code System**
   - **Input**: Scans QR codes for emergency access or new user requests.
-  - **Output**: Sends request data to the owner.
+  - **Output**: Sends request data to the owner.User access his/her mobile for approve or reject the user request
 
 - **Access Authorization**
   - **Input**: Data from RFID reader and QR code system.
