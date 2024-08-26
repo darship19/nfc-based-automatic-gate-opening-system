@@ -18,7 +18,7 @@ Traditional gate opening systems often rely on manual labor or simple remote con
 ## System Components and Interfacing
 ## User Interface
 
-![User Interface](images/user-interface.png)
+![User Interface](images/user-interface.jpeg)
 
 ![User Interface](images/user-interface1.png)
 
