@@ -20,9 +20,9 @@ Traditional gate opening systems often rely on manual labor or simple remote con
 
 ![User Interface](images/user-interface.png)
 
-## Hardware Setup
+![User Interface](images/user-interface1.png)
 
-<img src="images/hardware-setup.png" alt="Hardware Setup" width="500"/>
+
 
 ### Step 1: Vehicle Detection
 
