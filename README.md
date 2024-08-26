@@ -16,6 +16,13 @@ Traditional gate opening systems often rely on manual labor or simple remote con
 - **QR Code System**: Handles emergency access and new user requests via QR code scanning.
 
 ## System Components and Interfacing
+## User Interface
+
+![User Interface](images/user-interface.png)
+
+## Hardware Setup
+
+<img src="images/hardware-setup.png" alt="Hardware Setup" width="500"/>
 
 ### Step 1: Vehicle Detection
 
@@ -106,6 +113,5 @@ Traditional gate opening systems often rely on manual labor or simple remote con
 
 Contributions are welcome! Feel free to submit issues or pull requests to enhance the functionality and features of this project.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+##Contact
+hasithapramuditha@gmail.com | mkmalith2000@ieee.org  | darshika197@gmail.com 
