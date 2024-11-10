@@ -96,12 +96,13 @@ Traditional gate opening systems often rely on manual labor or simple remote con
    - Test NFC access using RFID cards.
    - Validate the owner-requested access feature via the mobile app.
 
-## Usage
+## Micro Controller
+  ESP32 (in ESP_servo.ino):
 
-1. **Vehicle Detection**: As a vehicle approaches the gate, the ultrasonic sensor detects its presence and prompts the user to present an RFID card.
-2. **User Access**: The user scans their RFID card; the system verifies the card data and grants or denies access based on the stored information.
-3. **Manual Access Request**: In case of emergencies or special access requests, the user can scan a QR code or request access through the mobile app.
-4. **Gate Operation**: Upon successful verification, the servo motor operates to open or close the gate.
+This microcontroller is used for connecting to a Wi-Fi network and creating a web server to control a servo motor. You are utilizing the Wi-Fi capability of the ESP32 to allow clients to connect and send commands (e.g., moving the servo to the left or right). The code includes libraries like WiFi.h and ESP32Servo.h, which are specific to ESP32 development.
+Arduino (e.g., Arduino Uno) (in Arduino.ino):
+
+This microcontroller is used with an MFRC522 RFID reader to read and authenticate RFID tags/cards and control a servo motor based on the read data. The code uses the MFRC522 library for RFID communication and Servo.h for controlling a servo motor. The hardware connections specified in the code, such as RST_PIN and SS_PIN, are compatible with Arduino boards.
 
 ## Future Enhancements
 
@@ -109,9 +110,6 @@ Traditional gate opening systems often rely on manual labor or simple remote con
 - Adding facial recognition for an additional layer of security.
 - Implementing AI-driven analytics for access patterns and security monitoring.
 
-## Contributing
-
-Contributions are welcome! Feel free to submit issues or pull requests to enhance the functionality and features of this project.
 
 ##Contact
 hasithapramuditha@gmail.com | mkmalith2000@ieee.org  | darshika197@gmail.com 
